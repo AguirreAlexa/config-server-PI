@@ -56,4 +56,5 @@ resilience4j:
       subscription:
         maxAttempts: 3
         waitDuration: 1000
-        retryExceptions[0]: feign.FeignException$InternalServerError 
+        retryExceptions:
+          - java.lang.IllegalArgumentException
