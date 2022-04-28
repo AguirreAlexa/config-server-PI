@@ -57,4 +57,4 @@ resilience4j:
         maxAttempts: 3
         waitDuration: 1000
         retryExceptions:
-          - java.lang.IllegalArgumentException
+          - java.lang.Exception
